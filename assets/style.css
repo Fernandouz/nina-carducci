@@ -40,6 +40,12 @@ body {
 
 .social-link img {
 	width: 20px;
+	height: auto;
+}
+
+.carousel-item img {
+	width: 100%;
+	height: 100%;
 }
 
 #about {
@@ -67,9 +73,9 @@ body {
 	z-index: 0;
 }
 
-.picture img {
+.picture.left img {
 	width: 100%;
-
+	height: 100%;
 }
 #about-me {
 	flex: 2
@@ -90,9 +96,6 @@ body {
 	font-size: 14px;
 }
 
-/*#gallery {
-	/*	min-height: 100vh; 
-}*/
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -214,6 +217,12 @@ body {
 	right: 0;
 	z-index: -1;
 }
+
+.picture.right img {
+	width: 100%;
+	height: 100%;
+}
+
 .form-container {
 	flex : 2;
 
