@@ -1,3 +1,13 @@
+@font-face {
+	font-family: 'Inter';
+	src: url(Font/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+	font-family:'Spectral';
+	src: url(Font/Spectral/Spectral-ExtraBoldItalic.ttf);
+	src: url(font/Spectral/Spectral-LightItalic.ttf);
+}
 body {
 	max-width: 1920px;
 	margin: auto;
@@ -44,7 +54,7 @@ body {
 }
 
 .carousel-item img {
-	width: 100%;
+	
 	height: 100%;
 }
 
@@ -86,7 +96,7 @@ body {
 	font-size: 30px;
 }
 .about-me__introduction {
-	font-family: 'Spectral';
+	font-family: 'Spectral', inherit;
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
@@ -143,20 +153,20 @@ body {
 }
 
 .quote {
-	font-family: 'Spectral';
+	font-family: 'Spectral',inherit;
 	font-style: italic;
 	width: 70%;
 	margin: auto;
 	padding-block: 3em;
 }
 .quote__text {
-	font-family: Spectral;
+	font-family: 'Spectral',inherit;
 	font-style: italic;
 	font-weight: 300;
 
 }
 .quote__author {
-	font-family: Spectral;
+	font-family: 'Spectral',inherit;
 	font-weight: 800;
 	font-size: 22px;
 }
